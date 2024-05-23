@@ -1,5 +1,6 @@
 package com.maikon.fiscalio.controller;
 
+import com.maikon.fiscalio.controller.contract.INotaFiscalController;
 import com.maikon.fiscalio.model.NotaFiscal;
 import com.maikon.fiscalio.service.NotaFiscalService;
 import lombok.RequiredArgsConstructor;
@@ -11,7 +12,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/notaFiscal")
-public class NotaFiscalController {
+public class NotaFiscalController implements INotaFiscalController {
 
     private final NotaFiscalService notaFiscalService;
 
