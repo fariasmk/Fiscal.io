@@ -1,6 +1,6 @@
-package com.maikon.fiscalio.Repository;
+package com.maikon.fiscalio.repository;
 
-import com.maikon.fiscalio.Model.NotaFiscal;
+import com.maikon.fiscalio.model.NotaFiscal;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

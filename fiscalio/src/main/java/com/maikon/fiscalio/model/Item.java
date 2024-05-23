@@ -1,4 +1,4 @@
-package com.maikon.fiscalio.Model;
+package com.maikon.fiscalio.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
