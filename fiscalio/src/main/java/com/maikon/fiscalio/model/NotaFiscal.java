@@ -27,4 +27,10 @@ public class NotaFiscal {
 
     @OneToMany(mappedBy = "notaFiscal", cascade = CascadeType.ALL)
     private List<Item> items;
+
+    public NotaFiscal(Integer idNota, String emissor, Date data) {
+        this.idNota = idNota;
+        this.emissor = emissor;
+        this.data = data;
+    }
 }
