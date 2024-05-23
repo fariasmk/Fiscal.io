@@ -6,6 +6,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -24,5 +25,5 @@ public interface INotaFiscalController {
     })
     @Operation(summary = "Endpoint para listar todas as notas fiscais")
     //Todo: Implementar o endpoint para buscar todas as notas fiscais com paginacão
-    List<NotaFiscal> findAll();
+    ModelAndView findAll();
 }
